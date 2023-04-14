@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 10px;
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.sans {
+  font-family: "Open Sans", sans-serif;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.mt-76 {
+  margin-top: 4.75rem;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.nav_link {
+  list-style: none;
+  display: flex;
+  gap: 2.25rem;
+}
+
+li {
+  position: relative;
+}
+
+li:hover::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.25rem;
+  background-color: #6c63ff;
+  bottom: -0.625rem;
+  left: 0;
+}
+.secondary_btn {
+  width: 6.375rem;
+  height: 3.1rem;
+  border: 1px solid #6c63ff;
+  border-radius: 2px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.1rem;
+  text-align: center;
+  color: #6c63ff;
+}
+.flex_start {
+  align-self: flex-start;
+}
+.primary_btn {
+  width: 6.375rem;
+  height: 3.1rem;
+  border: 1px solid #6c63ff;
+  border-radius: 2px;
+  background-color: #6c63ff;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.1rem;
+  text-align: center;
+  color: white;
+}
+.banner_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.banner_content_wrapper h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  letter-spacing: -1px;
+  color: #2f2e41;
+}
+.banner_content_wrapper p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.125rem;
+  color: #9893a3;
+}
+.clients {
+  gap: 102px;
+  justify-content: center;
+}
+
+.more {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  letter-spacing: -1px;
+  color: #2f2e41;
+  background: rgb(255, 255, 255);
+  width: 6.375rem;
+  height: 1.375rem;
+  border: none;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(74, 70, 151, 0.418) 50%
+  );
+}
+.centering {
+  align-items: center;
+  justify-content: center;
+}
+
+.choose {
+  font-style: Bold;
+  font-size: 3rem;
+}
+
+.cards {
+  gap: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.element {
+  gap: 2rem;
+  width: 20%;
+  padding: 3rem 2.5rem;
+  background-color: rgba(236, 235, 255, 0.3);
+  text-align: center;
+  color: #717082;
+}
+
+.element h1 {
+  font-size: 2.5rem;
+  color: #2f2e41;
+}
+
+.element:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: transform 0.4s ease-in-out;
+  background-color: rgba(108, 99, 255, 1);
+  text-align: center;
+}
+
+.element:hover h1 {
+  color: #ffffff;
+}
+
+.element h1 span {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.cards button {
+  width: 8.375rem;
+  color: #6c63ff;
+  background-color: #ffffff;
+}
+.cards div div {
+  gap: 0.8rem;
+  font-size: 0.975rem;
+}
+
+.blog-row {
+  font-family: "Playfair Display";
+  justify-content: space-between;
+}
+
+.blog-row h1 {
+  font-size: 4rem;
+}
+.blog-column {
+  gap: 1.1rem;
+}
+.blog-column img {
+  width: 50%;
+}
+.nowrap {
+  flex-wrap: nowrap;
+  gap: 27px;
+}
+
+.nowrap .column {
+  gap: 1rem;
+}
+.nowrap h2 {
+  font-size: 1.2rem;
+  font-style: normal;
+  color: #2f2e41;
+}
+.nowrap p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #9893a3;
+}
+
+.nowrap div {
+  justify-content: center;
+}
+.last {
+  box-sizing: border-box;
+  width: 70%;
+  background-color: rgba(47, 46, 65, 1);
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 5.25rem;
+}
+
+.last h1 {
+  font-family: "Playfair Display";
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.last button {
+  width: 8rem;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(236, 235, 255, 0.6);
+  position: relative;
+}
+.footer_info {
+  padding: 10%;
+  justify-content: space-between;
+}
+
+.inform {
+  gap: 0.7rem;
+}
+
+.deep_footer {
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.blue-circle {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  background-color: rgba(112, 0, 255, 1);
+  top: -230px;
+  right: 0;
+  width: 150px;
+  height: 300px;
+  border-radius: 150px 0 0 150px;
+}
+
+.ipad,
+.burger,
+#blog {
+  display: none;
+}
+
+.box {
+  gap: 3px;
+  width: 25px;
+  height: 20px;
+}
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #6c63ff;
+  border-radius: 1px;
+}
+
+.image_wrapper_2 {
+  order: -1;
+  width: 40%;
+}
+
+.banner_img_wrapper {
+  width: 40%;
+}
+
+.inform img {
+  background-color: white;
+}
+.weblinks {
+  gap: 0.7rem;
+}
+
+@media only screen and (max-width: 850px) {
+  .banner_content_wrapper {
+    order: -2;
+  }
+  .image_wrapper_2,
+  .banner_img_wrapper {
+    width: unset;
+  }
+  .ipad_container,
+  .last {
+    width: 100%;
+  }
+
+  .last h1 {
+    font-size: 2rem;
+  }
+
+  .ipad_footer {
+    margin-top: 0;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .element {
+    width: 80%;
+  }
+
+  .blue-circle {
+    display: none;
+  }
+}
+@media only screen and (max-width: 791px) {
+  .desktop {
+    display: none;
+  }
+
+  .ipad,
+  #blog {
+    display: block;
+  }
+
+  .burger {
+    display: flex;
+  }
+  .banner_content_wrapper h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 3rem;
+    letter-spacing: -1px;
+    color: #2f2e41;
+  }
+  .h1_ipad h1 {
+    font-size: 3rem;
+  }
+
+  .clients {
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .last {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .last button {
+    width: 10rem;
+  }
+
+  .footer_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+  }
+
+  .blog-row,
+  .nowrap {
+    flex-direction: column;
+  }
+  .nowrap img {
+    width: 100%;
+  }
+  .blog-row h1 {
+    font-size: 2.8rem;
+  }
+}
+@media only screen and (max-width: 345px) {
+  .element {
+    width: 70%;
+  }
+  .banner_content_wrapper h1 {
+    font-size: 2.5rem;
+  }
+
+  .blog-row h1 {
+    font-size: 2rem;
+  }
+}
